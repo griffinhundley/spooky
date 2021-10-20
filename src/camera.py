@@ -9,3 +9,4 @@ def get_frame():
     if response:
         cv2.imwrite("images/test.jpg", image)
     capture.release()
+    return image
